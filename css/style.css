@@ -1,0 +1,290 @@
+html {
+    width: 1280px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1020px;
+    padding: 0 130px 0 130px;
+}
+
+.bottom {
+    font-size: 18px;
+    border: 3px solid #a38b70;
+    height: 35px;
+    width: 164px;
+    text-align: center;
+    padding-top: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*---header---*/
+.main-header {
+    background: url("../image/background.jpg") no-repeat;
+    height: 485px;
+    padding: 40px 130px 0 130px;
+}
+
+.header-top {
+    display: flex;
+}
+
+.menu-bottom {
+    margin-left: 170px;
+    margin-top: 3px;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.main-nav {
+    width: 475px;
+}
+
+.nav {
+    display: flex;
+    width: 340px;
+    margin: 20px 0 0 125px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-item a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.title {
+    color: #fff;
+    margin: 124px 0 200px 240px;
+    font-size: 50px;
+    width: 530px;
+    text-align: center;
+}
+
+/*---features---*/
+.features {
+    margin: 50px 90px 40px 0;
+    text-align: center;
+    display: flex;
+}
+
+.features-item {
+    margin-left: 35px;
+    margin-right: 65px;
+    width: 290px;
+}
+
+.features-item h2 {
+    color: #a38b70;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+/*---reference---*/
+.reference {
+    background-color: #f2f2f2;
+    height: 620px
+}
+
+.reference h2 {
+    color: #a38b70;
+    padding-top: 65px;
+    font-size: 45px;
+    margin-bottom: 55px;
+}
+
+.reference-header {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 24px;
+}
+
+.reference-bottom {
+    float: right;
+    color: #a38b70;
+    margin-top: 6px;
+}
+
+.reference-header span {
+    font-style: italic;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+.reference-link {
+    color: #a38b70;
+}
+
+.reference-content {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.reference-content p {
+    margin-top: 0;
+    margin-left: 30px;
+    width: 685px;
+    font-size: 16px;
+}
+
+.reference-content img {
+    width: 100px;
+    height: 100px;
+}
+
+/*---review---*/
+.review h2 {
+    color: #a38b70;
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.review-bottom {
+    float: right;
+    color: #a38b70;
+}
+
+.review-list {
+    display: flex;
+    margin-top: 45px;
+}
+
+.review-item {
+    margin-right: 100px;
+    margin-bottom: 95px;
+    border-left: 3px solid #a38b70;
+    padding-left: 50px;
+}
+
+.review-item p {
+    width: 360px;
+}
+
+.review-item span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*---popular---*/
+.popular-list {
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 48px;
+}
+
+.popular {
+    background: #f2f2f2;
+    height: 1030px;
+}
+
+.popular h2 {
+    margin-top: 0;
+    padding-top: 70px;
+    color: #a38b70;
+    font-size: 45px;
+}
+
+.popular-bottom {
+    float: right;
+    color: #a38b70;
+
+}
+
+.popular-item {
+    border: 2px solid #d9d9d9;
+    width: 306px;
+    margin-right: 48px;
+}
+
+.popular-item img {
+    width: 305px;
+    height: 210px;
+}
+
+.bottoms {
+    display: flex;
+    justify-content: center;
+}
+
+.popular-item p {
+    margin: 13px 20px 22px 20px;
+    font-weight: bold;
+}
+
+.popular-item span {
+    float: right;
+    color: #404040;
+    font-weight: bold;
+}
+
+.bottoms a {
+    background-color: #a38b70;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    height: 35px;
+    width: 125px;
+    padding-top: 13px;
+}
+
+#price-title {
+    padding-top: 0;
+    color: #a38b70;
+    font-size: 45px;
+}
+
+.price-list {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    border-collapse: collapse;
+}
+
+.price-item td {
+    border: 2px solid #d8d8d8;
+    text-align: left;
+    padding-left: 15px;
+    height: 48px;
+}
+
+.price-item th {
+    text-align: left;
+    font-weight: normal;
+    padding-left: 15px;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+.price-number {
+    width: 35px;
+}
+
+.price-service {
+    width: 445px;
+    font-weight: bold;
+}
+
+.price-specialist {
+    width: 325px;
+}
+
+.price-price {
+    width: 155px;
+}
+
+
+
+
