@@ -148,73 +148,74 @@
     </table>
 </div>
 <!--feedback-->
-<div class="container">
-    <h2>Остались вопросы?</h2>
-    <p>Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p>
-    <div>
-        <form action="#">
-            <label for="name">Представьтесь, пожалуйста:</label>
-            <input id="name" type="text" placeholder="Имя «Прозвище» Фамилия">
-            <div>
-                <div>
-                    <label for="tel">Контактный телефон:</label>
-                    <input id="tel" type="tel" placeholder="8 (ХХХ) ХХХ-ХХ-ХХ">
+<div class="container feedback">
+    <h2>Остались вопросы?<p>Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p></h2>
+    <div class="feedback-content">
+        <form action="#" class="feedback-form">
+            <label for="name" class="feedback-label">Представьтесь, пожалуйста:</label>
+            <input id="name" type="text" placeholder="Имя «Прозвище» Фамилия" class="feedback-item">
+            <div class="feedback-contact">
+                <div class="feedback-tel">
+                    <label for="tel" class="feedback-label">Контактный телефон:</label>
+                    <input id="tel" type="tel" placeholder="8 (ХХХ) ХХХ-ХХ-ХХ" class="feedback-item">
                 </div>
-                <div>
-                    <label for="email">Электронная почта:</label>
-                    <input id="email" type="email" placeholder="E-mail">
+                <div class="feedback-email">
+                    <label for="email" class="feedback-label">Электронная почта:</label>
+                    <input id="email" type="email" placeholder="E-mail" class="feedback-item">
                 </div>
             </div>
-            <input type="checkbox" id="spam">
-            <label for="spam">Я сoгласен получать спам и смс на телефон</label>
-            <label for="delivery">Тема обращения</label>
-            <select id="delivery">
+            <input type="checkbox" id="spam" checked class="feedback-item spam-checkbox">
+            <label for="spam" class="feedback-label spam-label">Я сoгласен получать спам и смс на телефон</label>
+            <label for="delivery" class="feedback-label subject-label">Тема обращения</label>
+            <select id="delivery" class="feedback-item feedback-select">
                 <option>Условия доставки</option>
             </select>
-            <label for="text">Текст обращения:</label>
-            <textarea id="text"> Введите текст вашего обращения</textarea>
-            <a href="#">Отправить</a>
+            <label for="text" class="feedback-label text-label">Текст обращения:</label>
+            <textarea id="text" class="feedback-item feedback-text"> Введите текст вашего обращения</textarea>
+            <a href="#" class="feedback-bottom">Отправить</a>
         </form>
-        <div><img src="">
-            <p>Пишите письма!</p></div>
+        <div class="feedback-bg">
+
     </div>
+</div>
 </div>
 <!--footer-->
 <footer>
-    <div>
-        <img src="">
-        <a href="#">ЗАКАЗАТЬ</a>
+    <div class="footer-logo">
+        <img src="image/logo.jpg">
+        <a href="#" class="bottom footer-bottom">ЗАКАЗАТЬ</a>
     </div>
-    <div>
-        <div>
+    <div class="footer-content">
+        <div class="footer-content-section">
             <h3>Магазин</h3>
-            <ul>
+            <ul class="footer-content-list">
                 <li><a href="#">Домики</a></li>
                 <li><a href="#">Одежда</a></li>
                 <li><a href="#">Очки</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer-content-section">
             <h3>Отзывы</h3>
-            <ul>
+            <ul class="footer-content-list">
                 <li><a href="#">Показать</a></li>
                 <li><a href="#">Оставить</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer-content-section">
             <h3>Прайс-лист</h3>
-            <ul>
+            <ul class="footer-content-list">
                 <li><a href="#">Скачать прайс</a></li>
             </ul>
         </div>
     </div>
-    <div>
-        <h3>Давайте дружить!</h3>
-        <a href="#"><img src=""></a>
-        <a href="#"><img src=""></a>
-        <a href="#"><img src=""></a>
-        <p>С <img src=""> для HTML ACADEMY</p>
+    <div class="social">
+        <h3 class="social-list">Давайте дружить!</h3>
+        <a href="#" class="social-item"><img src="image/vk.jpg"></a>
+        <a href="#" class="social-item"><img src="image/fb.jpg"></a>
+        <a href="#" class="social-item"><img src="image/instagram.jpg"></a>
+        <p>С <img src="image/heart.jpg"> для HTML ACADEMY</p>
     </div>
 </footer>
+
 </body>
 </html>

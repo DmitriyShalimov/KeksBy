@@ -285,6 +285,229 @@ body {
     width: 155px;
 }
 
+/*---feedback---*/
+.feedback-content{
+    display: flex;
+}
+
+.feedback h2{
+    margin: 10px 0;
+    padding-top: 50px;
+    color: #a38b70;
+    font-weight: bold;
+    font-size: 45px;
+}
+.feedback p{
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+}
+
+.feedback-form{
+    margin-top: 60px;
+    width: 628px;
+    margin-right: 38px;
+}
+
+.feedback-label{
+    margin-left: 17px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.feedback-item{
+    display: block;
+    width: 610px;
+    height: 45px;
+    text-align: left;
+    padding: 5px 0 0 16px;
+    border: 2px solid #d5d5d5;
+    margin-bottom:23px;
+    margin-top:10px;
+}
+
+.feedback-contact input{
+    width:270px;
+}
+
+.feedback-contact{
+    display: flex;
+    width: 650px;
+    margin-bottom: 18px;
+}
+
+.feedback-tel{
+    margin-right: 54px;
+}
+
+.feedback-item::placeholder, .feedback-text{
+    font-size: 18px;
+
+}
+
+.spam-label, .spam-checkbox{
+    display: inline-flex;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.spam-label{
+    width: 500px;
+    margin-left: 0;
+    padding-top: 10px;
+
+}
+.spam-checkbox {
+    width: 50px;
+    height: 26px;
+    margin: 0 0 15px 0;
+}
+
+.subject-label{
+    margin-left: 0;
+    margin-top: 25px;
+    padding-left: 17px;
+    display: block;
+    padding-top: 35px;
+    border-top: 1px solid #d5d5d5;
+}
+
+.feedback-text{
+    height: 80px;
+    width: 612px;
+    padding-top:20px;
+    padding-left: 15px;
+    margin-bottom: 67px;
+}
+
+.feedback-bottom{
+    color: #fff;
+    background-color: #a38b70;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 70px;
+    height: 33px;
+    width: 170px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.feedback-select{
+    background-color: white;
+    font-size: 18px;
+    width: 630px;
+    height: 54px;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.feedback-bg{
+    margin-top: 93px;
+    margin-left: 15px;
+    width: 341px;
+    height: 535px;
+    background: url("../image/email.jpg")no-repeat;
+}
+
+
+/*---footer---*/
+footer{
+    margin-top:80px;
+    background-color: #363636;
+}
+
+.footer-logo{
+    padding-top:  46px;
+    padding-bottom: 40px;
+    margin:0 130px 0 130px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.footer-logo img{
+    width: 205px;
+    height: 55px;
+}
+
+.footer-bottom{
+    float: right;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.footer-content{
+    margin: 25px 130px 0 127px;
+    display: flex;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.footer-content-section{
+    margin-right: 72px;
+    padding-bottom: 45px;
+}
+
+.footer-content h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #a38b70;
+    margin-bottom: 10px;
+}
+
+.footer-content-list{
+    list-style-type: none;
+    padding-left: 2px;
+    margin-top: 10px;
+}
+
+.footer-content-list a{
+    text-decoration: none;
+    line-height: 40px;
+    color: #828282;
+}
+.social{
+    margin-top: 48px;
+    margin-left: 127px;
+    display: flex;
+}
+
+.social-list{
+    font-weight: 700;
+    font-size: 24px;
+    color: #a38b70;
+    margin-right: 58px;
+}
+
+.social-item{
+    margin: 2px 9px 50px 4px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #5e5e5e;
+}
+
+.social-item img{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.social-text{
+    margin-left: 298px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.social-text a {
+    text-decoration: none;
+    color: #fff;
+}
+.social p{
+    float: right;
+    color: #fff;
+    margin-left: 340px ;
+}
+
+
+
 
 
 
